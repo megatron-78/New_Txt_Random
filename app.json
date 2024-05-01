@@ -7,7 +7,7 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/mohitbooraget/New_Txt_Random",
+    "repository": "https://github.com/Ashrafmdmatin41/New_Txt_Random",
     "success_url": "https://telegram.me/imendaxpublic",
     "stack": "container",
     "env": {
