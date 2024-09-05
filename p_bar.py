@@ -94,7 +94,7 @@ async def progress_bar(current, total, reply, start):
             bar_length = 20
             completed_length = int(current * bar_length / total)
             remaining_length = bar_length - completed_length
-            progress_bar = "▓" * completed_length + "▒" * remaining_length
+            progress_bar = "▰" * completed_length + "▱" * remaining_length
             
             try:
                 await reply.edit(f'╭── 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗿 ──╮ \n┣{progress_bar} \n┣𝗣𝗿𝗼𝗴𝗿𝗲𝘀𝘀 🧭 ➠ {perc} \n┣𝗦𝗽𝗲𝗲𝗱 ⚡ ➠ {sp} \n┣𝗟𝗼𝗮𝗱𝗲𝗱 🗂️ ➠ {cur} \n┣𝗦𝗶𝘇𝗲 🧲 ➠ {tot} \n┣𝗘𝗧𝗔 ⏳ ➠ {eta} \n╰────『[𝗠ᴇɢᴀᴛʀᴏɴ❤️](tg://user?id=7535195022)⁬』────╯\n') 
